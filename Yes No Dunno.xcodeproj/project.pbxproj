@@ -6,35 +6,15 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		DD2573982B6EA40100F3061F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2573972B6EA40100F3061F /* AppDelegate.swift */; };
-		DD25739A2B6EA40100F3061F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2573992B6EA40100F3061F /* SceneDelegate.swift */; };
-		DD25739C2B6EA40100F3061F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD25739B2B6EA40100F3061F /* ViewController.swift */; };
-		DD25739F2B6EA40100F3061F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD25739D2B6EA40100F3061F /* Main.storyboard */; };
-		DD2573A12B6EA40200F3061F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2573A02B6EA40200F3061F /* Assets.xcassets */; };
-		DD2573A42B6EA40200F3061F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2573A22B6EA40200F3061F /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		DD2573942B6EA40100F3061F /* Yes No Dunno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yes No Dunno.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2573972B6EA40100F3061F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD2573992B6EA40100F3061F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD25739B2B6EA40100F3061F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD25739E2B6EA40100F3061F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD2573A02B6EA40200F3061F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2573A32B6EA40200F3061F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2573A52B6EA40200F3061F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC783432B7101B200638ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		DD2573912B6EA40100F3061F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DD25738B2B6EA40100F3061F = {
@@ -48,7 +28,6 @@
 		DD2573952B6EA40100F3061F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD2573942B6EA40100F3061F /* Yes No Dunno.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +37,7 @@
 			children = (
 				DD2573972B6EA40100F3061F /* AppDelegate.swift */,
 				DD2573992B6EA40100F3061F /* SceneDelegate.swift */,
-				DD25739B2B6EA40100F3061F /* ViewController.swift */,
+				DDC783432B7101B200638ADC /* ViewController.swift */,
 				DD25739D2B6EA40100F3061F /* Main.storyboard */,
 				DD2573A02B6EA40200F3061F /* Assets.xcassets */,
 				DD2573A22B6EA40200F3061F /* LaunchScreen.storyboard */,
@@ -69,26 +48,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		DD2573932B6EA40100F3061F /* Yes No Dunno */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD2573A82B6EA40200F3061F /* Build configuration list for PBXNativeTarget "Yes No Dunno" */;
-			buildPhases = (
-				DD2573902B6EA40100F3061F /* Sources */,
-				DD2573912B6EA40100F3061F /* Frameworks */,
-				DD2573922B6EA40100F3061F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Yes No Dunno";
-			productName = "Yes No Dunno";
-			productReference = DD2573942B6EA40100F3061F /* Yes No Dunno.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
 /* Begin PBXProject section */
 		DD25738C2B6EA40100F3061F /* Project object */ = {
 			isa = PBXProject;
@@ -96,11 +55,6 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-					DD2573932B6EA40100F3061F = {
-						CreatedOnToolsVersion = 14.3.1;
-					};
-				};
 			};
 			buildConfigurationList = DD25738F2B6EA40100F3061F /* Build configuration list for PBXProject "Yes No Dunno" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -115,36 +69,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD2573932B6EA40100F3061F /* Yes No Dunno */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		DD2573922B6EA40100F3061F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD2573A42B6EA40200F3061F /* LaunchScreen.storyboard in Resources */,
-				DD2573A12B6EA40200F3061F /* Assets.xcassets in Resources */,
-				DD25739F2B6EA40100F3061F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		DD2573902B6EA40100F3061F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD25739C2B6EA40100F3061F /* ViewController.swift in Sources */,
-				DD2573982B6EA40100F3061F /* AppDelegate.swift in Sources */,
-				DD25739A2B6EA40100F3061F /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
 		DD25739D2B6EA40100F3061F /* Main.storyboard */ = {
@@ -280,60 +207,6 @@
 			};
 			name = Release;
 		};
-		DD2573A92B6EA40200F3061F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Yes No Dunno/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Volkker-Tech.Yes-No-Dunno";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DD2573AA2B6EA40200F3061F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Yes No Dunno/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Volkker-Tech.Yes-No-Dunno";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -342,15 +215,6 @@
 			buildConfigurations = (
 				DD2573A62B6EA40200F3061F /* Debug */,
 				DD2573A72B6EA40200F3061F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DD2573A82B6EA40200F3061F /* Build configuration list for PBXNativeTarget "Yes No Dunno" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD2573A92B6EA40200F3061F /* Debug */,
-				DD2573AA2B6EA40200F3061F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
