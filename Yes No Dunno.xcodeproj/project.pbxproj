@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD5A6D9E2B72AACA001D4A8D /* app-background.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5A6D9D2B72AACA001D4A8D /* app-background.png */; };
 		DD918FF32B728DED005087B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918FF22B728DED005087B4 /* AppDelegate.swift */; };
 		DD918FF52B728DED005087B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918FF42B728DED005087B4 /* SceneDelegate.swift */; };
 		DD918FF72B728DED005087B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918FF62B728DED005087B4 /* ViewController.swift */; };
 		DD918FFA2B728DED005087B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD918FF82B728DED005087B4 /* Main.storyboard */; };
 		DD918FFC2B728DEE005087B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD918FFB2B728DEE005087B4 /* Assets.xcassets */; };
 		DD918FFF2B728DEE005087B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD918FFD2B728DEE005087B4 /* LaunchScreen.storyboard */; };
-		DDCF54232B729674003B4858 /* Wild-Girls-2.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCF54222B729674003B4858 /* Wild-Girls-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD5A6D9D2B72AACA001D4A8D /* app-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-background.png"; sourceTree = "<group>"; };
 		DD918FF02B728DED005087B4 /* Yes No Dunno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yes No Dunno.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD918FF22B728DED005087B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD918FF42B728DED005087B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		DD918FFB2B728DEE005087B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD918FFE2B728DEE005087B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD9190002B728DEE005087B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDCF54222B729674003B4858 /* Wild-Girls-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wild-Girls-2.png"; path = "../../../Desktop/Wild-Girls-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		DD918FF12B728DED005087B4 /* Yes No Dunno */ = {
 			isa = PBXGroup;
 			children = (
-				DDCF54222B729674003B4858 /* Wild-Girls-2.png */,
+				DD5A6D9D2B72AACA001D4A8D /* app-background.png */,
 				DD918FF22B728DED005087B4 /* AppDelegate.swift */,
 				DD918FF42B728DED005087B4 /* SceneDelegate.swift */,
 				DD918FF62B728DED005087B4 /* ViewController.swift */,
@@ -128,10 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDCF54232B729674003B4858 /* Wild-Girls-2.png in Resources */,
 				DD918FFF2B728DEE005087B4 /* LaunchScreen.storyboard in Resources */,
 				DD918FFC2B728DEE005087B4 /* Assets.xcassets in Resources */,
 				DD918FFA2B728DED005087B4 /* Main.storyboard in Resources */,
+				DD5A6D9E2B72AACA001D4A8D /* app-background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -80,20 +80,15 @@ class ViewController: UIViewController {
     
     func setupButtons() {
             // Set corner radius for yesButton
-            yesButton.layer.cornerRadius = 20 // Adjust the value as needed
-            yesButton.clipsToBounds = true
-            yesButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 22) // Adjust the size as needed
-
-
-            // Set corner radius for noButton
-            noButton.layer.cornerRadius = 20 // Adjust the value as needed
-            noButton.clipsToBounds = true
-            noButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 26) // Adjust the size as needed
-
-            // Set corner radius for dunnoButton
-            dunnoButton.layer.cornerRadius = 20 // Adjust the value as needed
-            dunnoButton.clipsToBounds = true
-            dunnoButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30) // Adjust the size as needed
+//            yesButton.layer.cornerRadius = 20 // Adjust the value as needed
+//            yesButton.clipsToBounds = true
+//            yesButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 28) // Adjust the size as needed
+//        
+//            if let customFont = UIFont(name: "HelloHeadlineW00-Regular", size: 16) {
+//                yesButton.titleLabel?.font = customFont
+//            } else {
+//                print("Custom font not found, make sure it is added to the project and Info.plist.")
+//            }
         }
     
     func setupRecorder() {

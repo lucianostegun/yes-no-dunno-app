@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2BAEB6BC-3128-4874-A654-4F8C4E90E557"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A37EC38A-72F2-490F-BC12-3C8760C16A72"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yes No Dunno/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "play()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A37EC38A-72F2-490F-BC12-3C8760C16A72 - 680f9293a8e7dcf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Yes_No_Dunno.ViewController.play(tag: Swift.String) -&gt; ()"
+                  moduleName = "Yes No Dunno"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucianostegun/Projetos/Yes%20No%20Dunno/Yes%20No%20Dunno/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "A37EC38A-72F2-490F-BC12-3C8760C16A72 - 680f9293a8e7dec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Yes_No_Dunno.ViewController.play(tag: Swift.String) -&gt; ()"
+                  moduleName = "Yes No Dunno"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucianostegun/Projetos/Yes%20No%20Dunno/Yes%20No%20Dunno/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
