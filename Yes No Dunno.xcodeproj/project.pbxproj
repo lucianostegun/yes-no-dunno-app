@@ -14,6 +14,7 @@
 		DD2573A32B6EA40200F3061F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2573A52B6EA40200F3061F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC783432B7101B200638ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDFA2C2B2B728AC900E59F95 /* Wild-Girls-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wild-Girls-2.png"; path = "../../../Desktop/Wild-Girls-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -35,6 +36,7 @@
 		DD2573962B6EA40100F3061F /* Yes No Dunno */ = {
 			isa = PBXGroup;
 			children = (
+				DDFA2C2B2B728AC900E59F95 /* Wild-Girls-2.png */,
 				DD2573972B6EA40100F3061F /* AppDelegate.swift */,
 				DD2573992B6EA40100F3061F /* SceneDelegate.swift */,
 				DDC783432B7101B200638ADC /* ViewController.swift */,
